@@ -1,7 +1,7 @@
 angular.module('stackets.home', [])
 
   .controller('HomeController', function ($scope, $http, $window, $location, Snippets) {
-    $scope.loggedIn = Snippets.getLogStatus();
+    // $scope.loggedIn = Snippets.getLogStatus();
     Snippets.authenticate().then(function(response) {
       if ($window.localStorage.stacketsToken) {
         $scope.loggedIn = Snippets.setLogInStatus();

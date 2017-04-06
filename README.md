@@ -1,6 +1,7 @@
 # codeMinder
 
 > codeMinder is an app for organizing and sharing useful code snippets
+> https://codeminder.herokuapp.com/
 
 ## codeMinder Team
 
